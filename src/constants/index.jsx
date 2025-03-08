@@ -78,7 +78,7 @@ export const PROJECTS = [
     description:
       "SDLC • JavaScript • React • Vite • Tailwind CSS • Python • Supabase • AI Cohere API • JMeter • BCrypt",
     image: projectImage4,
-    githubLink: "https://github.com/tahayarkhan/MyAudioUI",
+    githubLink: "https://github.com/tahayarkhan/Skill-Match",
     projectLink: "https://skill-match.vercel.app",
   },
 ];
