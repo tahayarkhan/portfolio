@@ -1,6 +1,5 @@
 import React, { useEffect, useRef } from 'react';
-import * as THREE from 'three';
-
+import { Scene, PerspectiveCamera, WebGLRenderer, BufferGeometry, PointsMaterial, BufferAttribute, Points } from 'three';
 
 const SpaceParticles = () => {
   const containerRef = useRef(null);
@@ -8,14 +7,14 @@ const SpaceParticles = () => {
 
   useEffect(() => {
     // Scene setup
-    const scene = new THREE.Scene();
-    const camera = new THREE.PerspectiveCamera(75, window.innerWidth / window.innerHeight, 0.1, 1000);
-    const renderer = new THREE.WebGLRenderer({ alpha: true });
+    const scene = new Scene();
+    const camera = new PerspectiveCamera(75, window.innerWidth / window.innerHeight, 0.1, 1000);
+    const renderer = new WebGLRenderer({ alpha: true });
     renderer.setSize(window.innerWidth, window.innerHeight);
     containerRef.current.appendChild(renderer.domElement);
 
     // Create particles
-    const particlesGeometry = new THREE.BufferGeometry();
+    const particlesGeometry = new BufferGeometry();
     const particleCount = 5000;
     const posArray = new Float32Array(particleCount * 3);
 
@@ -23,16 +22,16 @@ const SpaceParticles = () => {
       posArray[i] = (Math.random() - 0.5) * 10;
     }
 
-    particlesGeometry.setAttribute('position', new THREE.BufferAttribute(posArray, 3));
+    particlesGeometry.setAttribute('position', new BufferAttribute(posArray, 3));
 
-    const particlesMaterial = new THREE.PointsMaterial({
+    const particlesMaterial = new PointsMaterial({
       size: 0.005,
       color: '#ffffff',
       transparent: true,
       opacity: 0.8,
     });
 
-    const particlesMesh = new THREE.Points(particlesGeometry, particlesMaterial);
+    const particlesMesh = new Points(particlesGeometry, particlesMaterial);
     scene.add(particlesMesh);
     camera.position.z = 3;
 
@@ -66,4 +65,4 @@ const SpaceParticles = () => {
   return <div ref={containerRef} className="fixed inset-0 pointer-events-none" />;
 };
 
-export default SpaceParticles; 
+export default SpaceParticles;
