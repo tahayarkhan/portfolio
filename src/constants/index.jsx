@@ -9,7 +9,7 @@ import {
 
 import projectImage1 from "../assets/CarbonX.png";
 import projectImage2 from "../assets/CC-project.jpeg";
-import projectImage3 from "../assets/AI-Tutor.jpg";
+import projectImage3 from "../assets/AI-tutor.jpg";
 import projectImage4 from "../assets/skill-match.jpeg";
 import projectImage5 from "../assets/project5.jpeg";
 import projectImage6 from "../assets/project6.jpeg";
