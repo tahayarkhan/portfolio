@@ -34,7 +34,7 @@ const Navbar = () => {
 
             {/* Desktop Menu */}
 
-            <div className="mx-auto hidden max-w-2xl items-center justify-center rounded-lg border border-stone-50/30 bg-black/20 py-3 backdrop-blur-lg lg:flex">
+            <div className="mx-auto hidden max-w-xl items-center justify-center rounded-full border border-stone-50/30 bg-black/20 py-2 backdrop-blur-lg lg:flex">
 
                 <div className="flex items-center justify-between gap-6">
                     
@@ -54,7 +54,7 @@ const Navbar = () => {
                     </div>
             
             {/* Mobile Menu */}
-            <div className="rounded-lg backdrop-blur-md lg:hidden">
+            <div className="rounded-full backdrop-blur-md lg:hidden">
                 <div className="flex items-center justify-between">
                    
 
