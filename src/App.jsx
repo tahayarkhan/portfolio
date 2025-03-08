@@ -6,6 +6,8 @@ import WorkExperience from './components/WorkExperience';
 import ContactForm from './components/ContactForm';
 import Footer from './components/Footer';
 import SpaceParticles from './components/SpaceParticles';
+import bird from './assets/bird.gif';
+import cloud1 from './assets/cloud1.png';
 
 
 const Cloud = ({ id }) => {
@@ -19,7 +21,7 @@ const Cloud = ({ id }) => {
     <div className="cloud-container animate-cloud" style={cloudStyles}>
       {/* Cloud Image */}
       <img
-        src="./assets/cloud1.png"
+        src={cloud1}
         className="cloud"
         key={id}
         alt="Cloud"
@@ -73,7 +75,7 @@ const App = () => {
           }}
         >
           <img
-            src="./assets/bird.gif"
+            src={bird}
             className="bird animate-bird"
             alt="Bird"
             style={{ top: '15%' }}
