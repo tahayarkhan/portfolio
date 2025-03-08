@@ -19,7 +19,7 @@ const Cloud = ({ id }) => {
     <div className="cloud-container animate-cloud" style={cloudStyles}>
       {/* Cloud Image */}
       <img
-        src="../assets/cloud1.png"
+        src="./assets/cloud1.png"
         className="cloud"
         key={id}
         alt="Cloud"
@@ -73,7 +73,7 @@ const App = () => {
           }}
         >
           <img
-            src="../assets/bird.gif"
+            src="./assets/bird.gif"
             className="bird animate-bird"
             alt="Bird"
             style={{ top: '15%' }}
