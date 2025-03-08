@@ -1,6 +1,7 @@
 import React, { useEffect, useRef } from 'react';
 import * as THREE from 'three';
 
+
 const SpaceParticles = () => {
   const containerRef = useRef(null);
   const animationRef = useRef(null);
