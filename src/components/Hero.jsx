@@ -61,7 +61,7 @@ const Hero = () => {
                         href={link.href} 
                         target="_blank" 
                         rel='noopener noreferrer'
-                        className="text-3xl text-white"
+                        className="text-2xl text-white"
                     >
                         {link.icon}
                     </motion.a>
@@ -80,24 +80,22 @@ const Hero = () => {
                     }}
                     href="/Taha_resume.pdf"
                     download
-                    className="flex items-center gap-2 rounded-full bg-[#646cff]/80 px-6 py-3 text-sm font-semibold text-white"
+                    className="flex items-center gap-2 rounded-full bg-[#646cff]/80 px-4 py-2 text-sm font-semibold text-white"
                 >
                     Download Resume
                 </motion.a>
             </div>
         </motion.div>
 
-        <motion.div initial={{ opacity: 0, scale: 0.8 }} animate={{ opacity: 1, scale: 1}} transition={{ duration: 1 }} className="w-full md:w-1/2 lg:p-8 order-1 md:order-1">
+        <motion.div initial={{ opacity: 0, scale: 0.8 }} animate={{ opacity: 1, scale: 1 }} transition={{ duration: 1 }} className="w-full md:w-1/2 lg:p-8 order-1 md:order-1">
             <div className="flex justify-center">
                 <motion.img 
-                    initial={{ opacity: 0}} 
-                    animate={{ opacity: 1}} 
+                    initial={{ opacity: 0 }} 
+                    animate={{ opacity: 1 }} 
                     transition={{ duration: 1 }} 
                     src={pfp} 
-                    width={500} 
-                    height={500} 
                     alt="Taha Yar Khan" 
-                    className="rounded-full w-full h-full object-cover"
+                    className="rounded-full w-[350px] h-[350px] object-cover sm:w-[400px] sm:h-[400px] md:w-[500px] md:h-[500px] lg:w-full"
                 />
             </div>
         </motion.div>
