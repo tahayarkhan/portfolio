@@ -3,6 +3,7 @@ import pfp from "../assets/pfp.png"
 import { motion } from "framer-motion"
 import { TypeAnimation } from 'react-type-animation';
 import { FaChevronDown, FaMapMarkerAlt, FaGraduationCap, FaBook } from 'react-icons/fa';
+import { HiH1 } from "react-icons/hi2";
 
 const Hero = () => {
   return (
@@ -12,11 +13,11 @@ const Hero = () => {
             initial={{ opacity: 0, x: 50 }} 
             animate={{ opacity: 1, x: 0 }} 
             transition={{ duration: 1 }}   
-            className="flex flex-col items-start w-full md:w-1/2 md:pl-8 lg:pl-16 order-2 md:order-2 -mt-32 md:mt-0 mb-10 md:mb-0"
+            className="flex flex-col items-center w-full md:w-1/2 md:pl-8 lg:pl-16 order-2 md:order-2 mb-16 mt-3 md:items-start"
         >
-            <h2 className="my-4 p-2 text-3xl font-bold md:text-4xl lg:text-[7rem] mb-5"> 
+            <h1 className="my-4 p-2 text-4xl font-bold md:text-6xl lg:text-9xl"> 
                 {HERO.name}
-            </h2>
+            </h1>
             
             <TypeAnimation
                 sequence={[
@@ -25,20 +26,20 @@ const Hero = () => {
                     HERO.greet[2], 1000,
                     HERO.greet[3], 1000,
                 ]}
-                className="p-2 text-md tracking-tight lg:text-3xl mt-3"
+                className="p-2 text-xl tracking-tight lg:text-3xl md:text-2xl"
                 cursor={true}
                 repeat={Infinity}
                 speed={50}
             />
 
-            <div className="flex flex-col items-start my-4 pl-2">
-                <p className="mb-1 text-lg flex items-center">
+            <div className="flex flex-col items-start my-4 pl-2 ">
+                <p className="mb-1 text-sm md:text-lg flex items-center">
                     <FaMapMarkerAlt className="mr-2" /> {HERO.location}
                 </p>
-                <p className="mb-1 text-lg flex items-center">
+                <p className="mb-1 text-sm md:text-lg   flex items-center">
                     <FaGraduationCap className="mr-2" /> {HERO.education}
                 </p>
-                <p className="mb-1 text-lg flex items-center">
+                <p className="mb-1 text-sm md:text-lg flex items-center">
                     <FaBook className="mr-2" /> {HERO.degree}
                 </p>
             </div>
@@ -95,7 +96,7 @@ const Hero = () => {
                     transition={{ duration: 1 }} 
                     src={pfp} 
                     alt="Taha Yar Khan" 
-                    className="rounded-full w-[350px] h-[350px] object-cover sm:w-[400px] sm:h-[400px] md:w-[500px] md:h-[500px] lg:w-full"
+                    className="rounded-full w-96 h-96 md:w-auto md:h-auto object-cover "
                 />
             </div>
         </motion.div>

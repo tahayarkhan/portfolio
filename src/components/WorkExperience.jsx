@@ -6,7 +6,7 @@ import { motion } from "framer-motion"
 const WorkExperience = () => {
   return (
     <section className='pt-20' id='work'>
-        <motion.h2 initial={{ opacity: 0, y: -20}} whileInView={{ opacity: 1, y: 0 }} transition={{ duration: 1}} className='text-center text-4xl font-semibold tracking-tighter'>Work Experience</motion.h2>
+        <motion.h2 initial={{ opacity: 0, y: -20}} whileInView={{ opacity: 1, y: 0 }} transition={{ duration: 1}} className='text-center text-4xl font-semibold tracking-tighter mb-10'>Work Experience</motion.h2>
         <motion.div initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} transition={{ duration: 1, delay: 0.5 }} className='space-y-8 p-10 relative'>
             {/* Timeline line */}
             <div className='absolute left-8 top-0 bottom-0 w-0.5 bg-stone-50/30' />
