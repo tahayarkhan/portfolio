@@ -14,7 +14,7 @@ const Hero = () => {
             transition={{ duration: 1 }}   
             className="flex flex-col items-start w-full md:w-1/2 md:pl-8 lg:pl-16 order-2 md:order-2 -mt-32 md:mt-0 mb-10 md:mb-0"
         >
-            <h2 className="my-4 p-2 text-4xl font-bold md:text-5xl lg:text-[7rem]"> 
+            <h2 className="my-4 p-2 text-3xl font-bold md:text-4xl lg:text-[7rem] mb-5"> 
                 {HERO.name}
             </h2>
             
@@ -25,20 +25,20 @@ const Hero = () => {
                     HERO.greet[2], 1000,
                     HERO.greet[3], 1000,
                 ]}
-                className="p-2 text-3xl tracking-tight lg:text-4xl"
+                className="p-2 text-md tracking-tight lg:text-3xl mt-3"
                 cursor={true}
                 repeat={Infinity}
                 speed={50}
             />
 
             <div className="flex flex-col items-start my-4 pl-2">
-                <p className="mb-1 text-xl flex items-center">
+                <p className="mb-1 text-lg flex items-center">
                     <FaMapMarkerAlt className="mr-2" /> {HERO.location}
                 </p>
-                <p className="mb-1 text-xl flex items-center">
+                <p className="mb-1 text-lg flex items-center">
                     <FaGraduationCap className="mr-2" /> {HERO.education}
                 </p>
-                <p className="mb-1 text-xl flex items-center">
+                <p className="mb-1 text-lg flex items-center">
                     <FaBook className="mr-2" /> {HERO.degree}
                 </p>
             </div>
@@ -61,7 +61,7 @@ const Hero = () => {
                         href={link.href} 
                         target="_blank" 
                         rel='noopener noreferrer'
-                        className="text-2xl text-white"
+                        className="text-xl text-white"
                     >
                         {link.icon}
                     </motion.a>
@@ -87,7 +87,7 @@ const Hero = () => {
             </div>
         </motion.div>
 
-        <motion.div initial={{ opacity: 0, scale: 0.8 }} animate={{ opacity: 1, scale: 1 }} transition={{ duration: 1 }} className="w-full md:w-1/2 lg:p-8 order-1 md:order-1">
+        <motion.div initial={{ opacity: 0, scale: 0.8 }} animate={{ opacity: 1, scale: 1 }} transition={{ duration: 1 }} className="w-full md:w-1/2 lg:p-8 order-1 md:order-1 mt-10 md:mt-0 lg:mt-16">
             <div className="flex justify-center">
                 <motion.img 
                     initial={{ opacity: 0 }} 
