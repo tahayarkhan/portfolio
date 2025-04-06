@@ -24,12 +24,13 @@ const Projects = () => {
                   <p className="mb-12 p-4">{project.description}</p>
                   <div className="flex gap-4">
 
-                    {/* <a href={project.projectLink} target="_blank" rel="noopener noreffer" className="rounded-full bg-white px-4 py-2 text-black hover:bg-gray-300 min-w-[160px]">
+                    <a href={project.projectLink} target="_blank" rel="noopener noreffer" className="rounded-full bg-white px-4 py-2 text-black hover:bg-gray-300 min-w-[160px]">
                       <div className="flex items-center justify-center">
                         <span>View Project</span>
                         <MdArrowOutward />
                       </div>
-                    </a> */}
+                    </a>
+                    
                     <a href={project.githubLink} target="_blank" rel="noopener noreffer" className="rounded-full bg-white px-4 py-2 text-black hover:bg-gray-300 min-w-[160px]">
                       <div className="flex items-center justify-center">
                         <span>View GitHub</span>

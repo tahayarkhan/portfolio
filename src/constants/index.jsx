@@ -52,7 +52,7 @@ export const PROJECTS = [
       "JavaScript • TensorFlow.js • Axios • React • Node.js • Express • MongoDB • REST API",
     image: projectImage1,
     githubLink: "https://github.com/tahayarkhan/CarbonX",
-    projectLink: "https://carbonx.vercel.app",
+    projectLink: "",
   },
   {
     id: 2,
@@ -61,7 +61,7 @@ export const PROJECTS = [
       "Python • NumPy • Pandas • Scikit-learn • Streamlit",
     image: projectImage2,
     githubLink: "https://github.com/tahayarkhan/CC-Fraud-Detector",
-    projectLink: "https://cc-fraud-detector.vercel.app",
+    projectLink: "https://ai-cc-fraud-detector.streamlit.app/",
   },
   {
     id: 3,
@@ -70,7 +70,7 @@ export const PROJECTS = [
       "Python • React • JavaScript • AI Cohere API • Flask",
     image: projectImage3,
     githubLink: "https://github.com/tahayarkhan/My-AI-Tutor",
-    projectLink: "https://my-ai-tutor.vercel.app",
+    projectLink: "",
   },
   {
     id: 4,
@@ -79,7 +79,7 @@ export const PROJECTS = [
       "SDLC • JavaScript • React • Vite • Tailwind CSS • Python • Supabase • AI Cohere API • JMeter • BCrypt",
     image: projectImage4,
     githubLink: "https://github.com/tahayarkhan/Skill-Match",
-    projectLink: "https://skill-match.vercel.app",
+    projectLink: "",
   },
 ];
 
