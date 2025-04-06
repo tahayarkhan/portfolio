@@ -56,7 +56,7 @@ export const PROJECTS = [
   },
   {
     id: 2,
-    name: "Credit Card Fraud Detector",
+    name: "AI Credit Card Fraud Detector",
     description:
       "Python • NumPy • Pandas • Scikit-learn • Streamlit",
     image: projectImage2,
