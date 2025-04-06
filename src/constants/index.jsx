@@ -58,7 +58,7 @@ export const PROJECTS = [
     id: 2,
     name: "AI Credit Card Fraud Detector",
     description:
-      "Python • NumPy • Pandas • Scikit-learn • Streamlit",
+      "Python • NumPy • Pandas • Cohere API • Scikit-learn • Streamlit",
     image: projectImage2,
     githubLink: "https://github.com/tahayarkhan/CC-Fraud-Detector",
     projectLink: "https://ai-cc-fraud-detector.streamlit.app/",
@@ -67,7 +67,7 @@ export const PROJECTS = [
     id: 3,
     name: "My AI Tutor",
     description:
-      "Python • React • JavaScript • AI Cohere API • Flask",
+      "Python • React • JavaScript • Cohere API • Flask",
     image: projectImage3,
     githubLink: "https://github.com/tahayarkhan/My-AI-Tutor",
     projectLink: "",
