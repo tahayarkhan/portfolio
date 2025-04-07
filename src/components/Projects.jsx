@@ -24,15 +24,15 @@ const Projects = () => {
                   <p className="mb-12 p-4">{project.description}</p>
                   <div className="flex gap-4">
 
-                    <a href={project.projectLink} target="_blank" rel="noopener noreffer" className="rounded-full bg-white px-4 py-2 text-black hover:bg-gray-300 min-w-[160px]">
-                      <div className="flex items-center justify-center">
+                    <a href={project.projectLink} target="_blank" rel="noopener noreffer" className="rounded-full bg-white px-3 py-2 text-black hover:bg-gray-300 text-sm sm:text-base">
+                      <div className="flex items-center justify-center gap-1">
                         <span>View Project</span>
                         <MdArrowOutward />
                       </div>
                     </a>
                     
-                    <a href={project.githubLink} target="_blank" rel="noopener noreffer" className="rounded-full bg-white px-4 py-2 text-black hover:bg-gray-300 min-w-[160px]">
-                      <div className="flex items-center justify-center">
+                    <a href={project.githubLink} target="_blank" rel="noopener noreffer" className="rounded-full bg-white px-3 py-2 text-black hover:bg-gray-300 text-sm sm:text-base">
+                      <div className="flex items-center justify-center gap-1">
                         <span>View GitHub</span>
                         <MdArrowOutward />
                       </div>
