@@ -9,7 +9,7 @@ import {
 
 import projectImage1 from "../assets/CarbonX.png";
 import projectImage2 from "../assets/CC-project.jpeg";
-import projectImage3 from "../assets/AI-tutor.jpg";
+import projectImage3 from "../assets/insight.jpg";
 import projectImage4 from "../assets/skill-match.jpeg";
 import projectImage5 from "../assets/project5.jpeg";
 import projectImage6 from "../assets/project6.jpeg";
@@ -65,18 +65,18 @@ export const PROJECTS = [
   },
   {
     id: 3,
-    name: "My AI Tutor",
+    name: "AI Investment Chatbot",
     description:
-      "Python • React • JavaScript • Cohere API • Flask",
+      "Python •  JavaScript • React • Vite • Axios • Cohere API • Flask • Tailwind CSS",
     image: projectImage3,
-    githubLink: "https://github.com/tahayarkhan/My-AI-Tutor",
-    projectLink: "",
+    githubLink: "https://github.com/tahayarkhan/insight",
+    projectLink: "https://investment-insight.vercel.app/",
   },
   {
     id: 4,
     name: "Skill-Match",
     description:
-      "SDLC • JavaScript • React • Vite • Tailwind CSS • Python • Supabase • AI Cohere API • JMeter • BCrypt",
+      "SDLC • JavaScript • React • Vite • Tailwind CSS • Python • Supabase • Cohere API • JMeter • BCrypt",
     image: projectImage4,
     githubLink: "https://github.com/tahayarkhan/Skill-Match",
     projectLink: "",
