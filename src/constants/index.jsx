@@ -79,7 +79,7 @@ export const PROJECTS = [
       "SDLC • JavaScript • React • Vite • Tailwind CSS • Python • Supabase • Cohere API • JMeter • BCrypt",
     image: projectImage4,
     githubLink: "https://github.com/tahayarkhan/Skill-Match",
-    projectLink: "",
+    projectLink: "https://skill-match-cps731.vercel.app/",
   },
 ];
 
