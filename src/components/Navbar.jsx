@@ -54,7 +54,7 @@ const Navbar = () => {
                     </div>
             
             {/* Mobile Menu */}
-            <div className="rounded-full backdrop-blur-md lg:hidden">
+            <div className="backdrop-blur-md lg:hidden">
                 <div className="flex items-center justify-between">
                    
 
@@ -75,7 +75,7 @@ const Navbar = () => {
                 </div>
 
                 {isMobileMenuOpen && (
-                    <ul className="ml-4 mt-4 flex flex-col gap-4 backdrop-blur-md">
+                    <ul className=" rounded-full text-center flex flex-col gap-4 backdrop-blur-md bg-white/30 py-6">
                         {NAVIGATION_LINKS.map((item,index) => (
                             <li key={index}>
                                 <a href={item.href} className="block w-full text-lg " onClick={(e) => handleLinkClick(e,item.href)}>

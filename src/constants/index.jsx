@@ -47,7 +47,7 @@ export const HERO = {
 export const PROJECTS = [
   {
     id: 1,
-    name: "Carbon Footprint Tracker/Predictor",
+    name: "Carbon X",
     description:
       "JavaScript • TensorFlow.js • Axios • React • Node.js • Express • MongoDB • REST API",
     image: projectImage1,
