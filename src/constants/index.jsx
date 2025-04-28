@@ -123,6 +123,15 @@ export const PROJECTS = [
 // ];
 
 export const EXPERIENCES = [
+  
+  {
+    title: "Software Developer",
+    company: "Bank of Montreal",
+    duration: "January 2025 - August 2025",
+    description:
+      "As a Software Developer at the Bank of Montreal, I contributed to BMO's innovation platform by building and integrating web components to enhance functionality and user experience. Collaborating with cross-functional teams, I developed high-performance user interfaces that improved platform scalability and usability. Through performance optimizations, I enhanced platform responsiveness by 20%, delivering smoother, faster interactions for users.",
+  },
+  
   {
     title: "Technology Research Analyst",
     company: "Bank of Montreal",
@@ -131,18 +140,11 @@ export const EXPERIENCES = [
       "As a Technology Research Analyst at the Bank of Montreal, I developed and optimized web scraping solutions using Selenium to extract employee and revenue data for over 1,000 companies. I enhanced scraper accuracy by 55%, ensuring higher data reliability. Additionally, I automated data collection for trending tech news topics, streamlining insights for the tech research team.",
   },
   {
-    title: "UI/UX Developer",
-    company: "Bank of Montreal",
-    duration: "January 2025 - August 2025",
-    description:
-      "As a UI/UX Developer at the Bank of Montreal, I contributed to BMO's innovation platform by designing and developing custom web components. I worked closely with cross-functional teams to create intuitive, high-performance user interfaces that improved the overall user experience. Additionally, I enhanced the responsiveness of the platform by 20%, ensuring smoother and more efficient interactions for users.",
-  },
-  {
-    title: "Software Developer Intern",
+    title: "Software Developer",
     company: "MAX - Muslims Achieving Excellence",
     duration: "May 2024 - August 2024",
     description:
-      "As a Software Developer Intern at MAX, I developed login and signup components using React and JavaScript, implementing a multi-step profile setup with Chakra UI for improved UI/UX. I integrated the frontend with REST APIs for real-time updates and wrote Lambda functions for the AWS SAM Application, enhancing system scalability.",
+      "As a Software Developer at MAX, I developed login and signup components using React and JavaScript, implementing a multi-step profile setup with Chakra UI for improved UI/UX. I integrated the frontend with REST APIs for real-time updates and wrote Lambda functions for the AWS SAM Application, enhancing system scalability.",
   },
 ];
 
