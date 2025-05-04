@@ -52,6 +52,9 @@ const Navbar = () => {
                         </ul>
 
                     </div>
+
+
+
             
             {/* Mobile Menu */}
             <div className="backdrop-blur-md lg:hidden">
@@ -63,7 +66,7 @@ const Navbar = () => {
                         <button className="focus:outline-none lg:hidden" onClick={toggleMobileMenu}>
                             
                             {isMobileMenuOpen ? (
-                                <FaTimes classNam="m-2 h-6 w-5"/> 
+                                <FaTimes className="m-2 h-6 w-5"/> 
                             ) : (
                                 <FaBars className="m-2 h-6 w-5"/>
                             )}
