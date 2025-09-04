@@ -127,7 +127,7 @@ export const EXPERIENCES = [
   {
     title: "Software Developer",
     company: "Bank of Montreal",
-    duration: "January 2025 - August 2025",
+    duration: "January 2025 - December 2025",
     description:
       "As a Software Developer at the Bank of Montreal, I worked with the Emerging Payments team in Technology & Operations on the Zelle project. My contributions focused on building full-stack web applications and tools that streamlined customer onboarding and improved system monitoring for payments operations.",
   },
