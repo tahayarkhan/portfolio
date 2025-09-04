@@ -129,7 +129,7 @@ export const EXPERIENCES = [
     company: "Bank of Montreal",
     duration: "January 2025 - August 2025",
     description:
-      "As a Software Developer at the Bank of Montreal, I contributed to BMO's innovation platform by building and integrating web components to enhance functionality and user experience. Collaborating with cross-functional teams, I developed high-performance user interfaces that improved platform scalability and usability. Through performance optimizations, I enhanced platform responsiveness by 20%, delivering smoother, faster interactions for users.",
+      "As a Software Developer at the Bank of Montreal, I worked with the Emerging Payments team in Technology & Operations on the Zelle project. My contributions focused on building full-stack web applications and tools that streamlined customer onboarding and improved system monitoring for payments operations.",
   },
   
   {
